@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <main>
         <Link href="/open-the-book">
-          <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
+          <button>
             View Flipbook
           </button>
         </Link>

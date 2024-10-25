@@ -1,8 +1,8 @@
-@import '../variables';
+//@import '../variables';
 
 .footer {
-  background-color: $footer-bg;
-  color: $footer-text-color;
+  background-color: #f2f0df;
+  color: #700c02;
   padding: 20px;
   text-align: center;
   width: 100%;
@@ -33,7 +33,7 @@
     margin: 5px 0;
 
     a {
-      color: $footer-text-color;
+      color: #700c02;
       text-decoration: none;
       transition: color 0.3s;
 
@@ -59,7 +59,7 @@
   }
 
   a {
-    color: $footer-text-color;
+    color: #700c02;
     text-decoration: underline;
   }
 }

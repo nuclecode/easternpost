@@ -1,113 +1,118 @@
-@import '../variables';
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: $header-bg;
-  color: $header-text-color;
-  width: 100%;
-  position: relative;
-}
-
-.logoContainer {
-  .logo {
-    max-width: 150px;
-    height: auto;
-  }
-}
-
-/* Desktop Navigation */
-.desktopNav {
-  display: none;
-
-  .navLinks {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-
-    li {
-      a {
-        color: $header-text-color;
-        text-decoration: none;
-        transition: color 0.3s;
-
-        &:hover {
-          color: #ff6347; // Adjust hover color as needed
-        }
-      }
-    }
-  }
-}
-
-/* Burger Menu for Mobile */
-.bm-burger-button {
-  position: absolute;
-  width: 36px;
-  height: 30px;
-  right: 20px;
-  top: 20px;
-
-  @media (min-width: 1024px) {
-    display: none; // Hide the burger menu button on desktop
-  }
-}
-
-.bm-burger-bars {
-  background-color: $header-text-color;
-}
-
-.bm-menu-wrap {
-  top: 0;
-}
-
-.bm-menu {
-  background-color: $header-bg;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
-
-.bm-item-list {
-  list-style: none;
-  padding: 0;
-
-  li {
-    margin-bottom: 10px;
-
-    a {
-      color: $header-text-color;
-      text-decoration: none;
-      font-size: 18px;
-      transition: color 0.3s;
-
-      &:hover {
-        color: #ff6347; // Adjust hover color as needed
-      }
-    }
-  }
-}
-
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
-}
-
-.bm-cross {
-  background-color: $header-text-color;
-}
-
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3); // Optional overlay for when menu is open
-}
-
-/* Media Queries */
-@media (min-width: 1024px) {
-  .desktopNav {
-    display: block; // Show desktop nav on larger screens
-  }
-
-  .burgerMenu {
-    display: none; // Hide mobile burger menu on larger screens
-  }
-}
+//@import '../variables';
+//
+//.header {
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
+//  padding: 10px 20px;
+//  background-color: $header-bg;
+//  color: $header-text-color;
+//  width: 100%;
+//  position: relative;
+//}
+//
+//.logoContainer {
+//  .logo {
+//    max-width: 150px;
+//    height: auto;
+//  }
+//}
+//
+///* Desktop Navigation */
+//.desktopNav {
+//  display: none;
+//
+//  .navLinks {
+//    display: flex;
+//    list-style: none;
+//    gap: 20px;
+//
+//    li {
+//      a {
+//        color: $header-text-color;
+//        text-decoration: none;
+//        transition: color 0.3s;
+//
+//        &:hover {
+//          color: #ff6347; // Adjust hover color as needed
+//        }
+//      }
+//    }
+//  }
+//}
+//
+///* Burger Menu for Mobile */
+//.bm-burger-button {
+//  position: absolute;
+//  width: 36px;
+//  height: 30px;
+//  right: 20px;
+//  top: 20px;
+//
+//  @media (min-width: 1024px) {
+//    display: none; // Hide the burger menu button on desktop
+//  }
+//}
+//
+//.bm-burger-bars {
+//  background-color: $header-text-color;
+//}
+//
+//.bm-menu-wrap {
+//  top: 0;
+//}
+//
+//.bm-menu {
+//  background-color: $header-bg;
+//  padding: 2.5em 1.5em 0;
+//  font-size: 1.15em;
+//}
+//
+//.bm-item-list {
+//  list-style: none;
+//  padding: 0;
+//
+//  li {
+//    margin-bottom: 10px;
+//
+//    a {
+//      color: $header-text-color;
+//      text-decoration: none;
+//      font-size: 18px;
+//      transition: color 0.3s;
+//
+//      &:hover {
+//        color: #ff6347; // Adjust hover color as needed
+//      }
+//    }
+//  }
+//}
+//
+//.bm-cross-button {
+//  height: 24px;
+//  width: 24px;
+//}
+//
+//.bm-cross {
+//  background-color: $header-text-color;
+//}
+//
+//.bm-overlay {
+//  background: rgba(0, 0, 0, 0.3); // Optional overlay for when menu is open
+//}
+//
+///* Media Queries */
+//@media (min-width: 1024px) {
+//  .desktopNav {
+//    display: block; // Show desktop nav on larger screens
+//  }
+//
+//  .burgerMenu {
+//    display: none; // Hide mobile burger menu on larger screens
+//  }
+//}
+//
+//
+//.mobileNavLinks {
+//  color: white;
+//}
